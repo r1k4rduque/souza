@@ -1,0 +1,448 @@
+# PRP — Redesign do site Souza Atacadista
+
+## 1. Visão geral do projeto
+
+Desenvolver um novo site institucional e comercial para a **Souza Atacadista**, empresa localizada em Mogi Mirim-SP, especializada na distribuição de baralhos, produtos para jogos e artigos destinados principalmente a bares e estabelecimentos comerciais.
+
+O objetivo é substituir o site atual por uma experiência moderna, profissional, visualmente atraente e intuitiva, que apresente os produtos como uma vitrine digital.
+
+O site não será uma loja virtual. Não deverá possuir carrinho, checkout, cadastro de clientes ou sistema de pagamento. Sua função será apresentar os produtos, fortalecer a identidade da empresa e facilitar o contato comercial por WhatsApp.
+
+**Conceito principal:** uma vitrine comercial moderna com inspiração visual no universo dos baralhos e jogos de cartas.
+
+O resultado deve transmitir tradição, confiança, qualidade e profissionalismo, sem parecer um site corporativo genérico ou uma loja virtual lotada de informações.
+
+## 2. Identidade visual
+
+### Paleta de cores obrigatória
+
+Utilizar as seguintes cores como base da identidade:
+
+- Azul principal: `#0055B8`
+- Dourado: `#D7A400`
+- Laranja queimado: `#B85B00`
+- Azul-escuro: `#1C2938`
+- Marrom-acinzentado: `#38352D`
+
+Utilizar branco e tons claros neutros como apoio, principalmente nas áreas de leitura e apresentação dos produtos.
+
+### Direção artística
+
+A identidade visual deve fazer referências discretas ao universo dos baralhos:
+
+- Elementos gráficos inspirados nos naipes: espadas, copas, ouros e paus.
+- Formas inspiradas em cartas de baralho, leques de cartas e pilhas de cartas.
+- Texturas muito sutis que lembrem feltro de mesas de jogos ou superfícies de cartas.
+- Linhas decorativas, molduras e pequenos detalhes dourados.
+- Sobreposições e profundidade entre elementos, utilizando sombras suaves.
+
+Essas referências devem ser elegantes e discretas. Evitar transformar o site em um cassino ou utilizar símbolos de jogos de azar de maneira exagerada.
+
+### Botões e elementos interativos
+
+Não utilizar botões genéricos espalhados pela tela, todos com o mesmo formato de retângulos arredondados.
+
+Os elementos de interação devem fazer parte da composição visual. Utilizar, por exemplo:
+
+- Botões com molduras e detalhes inspirados em cartas.
+- Etiquetas visuais que lembram fichas ou marcadores de catálogo.
+- Elementos horizontais integrados aos banners.
+- Ícones minimalistas inspirados nos naipes.
+
+Os botões principais devem ser visualmente claros e fáceis de identificar. A identidade visual não pode prejudicar a usabilidade.
+
+### Tipografia
+
+Utilizar uma combinação moderna e legível, preferencialmente uma fonte sem serifa como Manrope ou DM Sans.
+
+Títulos podem ter uma personalidade um pouco mais marcante, mas o conteúdo precisa continuar fácil de ler.
+
+## 3. Estrutura do site
+
+O projeto deverá ser desenvolvido como uma **Single Page Website**.
+
+Todo o conteúdo ficará em uma única página, organizado verticalmente. Não criar páginas separadas para produtos, sobre ou contato.
+
+A navegação deverá utilizar rolagem suave até as seções correspondentes.
+
+### 3.1. Header — Navegação principal
+
+Criar um header moderno, fixo no topo da página, com comportamento adaptável durante a rolagem.
+
+Estrutura:
+
+- Logotipo ou nome Souza Atacadista à esquerda.
+- Produtos.
+- Sobre nós.
+- Contato.
+- Botão de destaque para WhatsApp.
+
+O header deve ter uma aparência refinada, com fundo azul ou azul-escuro e detalhes dourados.
+
+Ao rolar a página, poderá diminuir discretamente de altura ou alterar sua transparência, preservando a identidade visual.
+
+Os itens do menu deverão levar às respectivas partes da página com rolagem suave.
+
+Destacar visualmente a seção que está sendo visualizada pelo visitante.
+
+No celular, transformar a navegação em um menu compacto e acessível.
+
+### 3.2. Hero — Grande vitrine inicial
+
+Esta será a primeira grande experiência visual do visitante.
+
+Criar um banner de grandes dimensões, ocupando boa parte da área visível da tela, com um carrossel automático de imagens relacionadas aos produtos da Souza Atacadista.
+
+O foco principal deverá ser os baralhos.
+
+O carrossel poderá apresentar:
+
+- Baralhos novos.
+- Baralhos e acessórios para jogos.
+- Produtos de destaque.
+- Composições de produtos da empresa.
+
+**Comportamento do carrossel:**
+
+- Alternar automaticamente as imagens.
+- Permanência aproximada de 5 segundos em cada imagem.
+- Transição animada de aproximadamente 1 segundo.
+- Permitir navegação manual por setas.
+- Exibir indicadores discretos da posição atual.
+- Adaptar imagens e composição para diferentes tamanhos de tela.
+
+Cada slide deverá possuir uma composição própria, com fotografia de produto, fundo trabalhado e, quando necessário, uma chamada curta.
+
+Exemplos de chamadas:
+
+"Há mais de 30 anos levando qualidade aos seus jogos."
+
+"Seu estabelecimento merece bons produtos."
+
+"Tradição e qualidade em produtos para jogos."
+
+Incluir uma chamada visual para explorar os produtos e outra para entrar em contato pelo WhatsApp.
+
+Evitar excesso de textos dentro dos banners.
+
+### 3.3. Faixa de apresentação da empresa
+
+Logo abaixo do banner, apresentar uma pequena faixa institucional com três destaques:
+
+- 31 anos de história.
+- Especializada em produtos para jogos.
+- Qualidade e bom preço.
+
+A apresentação deve ser visual, utilizando números em destaque e pequenos elementos gráficos.
+
+Não criar uma seção extensa de texto nesse momento. A intenção é transmitir confiança rapidamente.
+
+## 4. Vitrine de produtos
+
+Esta é a parte mais importante do projeto.
+
+Os produtos devem receber o maior destaque visual do site. A organização precisa permitir que o visitante explore o catálogo sem encontrar dezenas de produtos apresentados simultaneamente.
+
+Os grupos de produtos serão:
+
+1. Baralhos.
+2. Essências.
+3. Copos.
+4. Palheiros.
+5. Outros.
+
+A categoria "Outros" contempla produtos como giletes, isqueiros, pilhas e demais artigos comercializados pela empresa.
+
+### 4.1. Conceito da vitrine expansível
+
+Não apresentar todos os produtos em uma grade tradicional.
+
+Criar uma experiência visual na qual cada grupo possui uma área própria de destaque.
+
+Quando o visitante chegar a uma categoria durante a rolagem, deverá ocorrer uma animação profissional que expande um painel de vitrine em primeiro plano, sobrepondo parcialmente os elementos que estão ao fundo.
+
+Esse painel funcionará como uma pequena janela de catálogo.
+
+Exemplo de funcionamento:
+
+1. O visitante rola a página até a categoria Baralhos.
+2. O título da categoria aparece.
+3. Um painel de vitrine se expande suavemente sobre a página.
+4. O visitante encontra alguns baralhos apresentados em destaque.
+5. Pode navegar horizontalmente para visualizar os demais modelos.
+6. Ao continuar a rolagem, a vitrine é recolhida e a próxima categoria assume o destaque.
+
+O painel não deve bloquear permanentemente a navegação vertical.
+
+A expansão deve ser suave, com movimento, profundidade e uma sobreposição elegante. Utilizar animações de escala, opacidade e deslocamento, sem movimentos exagerados.
+
+O painel poderá possuir uma sombra projetada e um fundo próprio, criando a sensação de uma vitrine que se aproxima do visitante.
+
+### 4.2. Navegação horizontal dos produtos
+
+Dentro de cada painel, os produtos deverão ser apresentados horizontalmente.
+
+O visitante poderá:
+
+- Arrastar os produtos com o mouse.
+- Utilizar as setas laterais.
+- Deslizar com o dedo em celulares.
+- Navegar por todos os produtos disponíveis daquela categoria.
+
+Não exibir todos os produtos de uma vez.
+
+Cada produto deverá possuir:
+
+- Fotografia.
+- Nome do produto.
+- Descrição curta, quando necessária.
+- Botão ou ação para solicitar informações pelo WhatsApp.
+
+A apresentação deve dar prioridade às fotografias. Evitar descrições longas, informações técnicas desnecessárias e preços que não tenham sido fornecidos pela empresa.
+
+### 4.3. Expansão individual de produto
+
+Ao clicar em um produto, abrir uma pequena janela sobreposta aos demais elementos do site.
+
+Essa janela deverá expandir suavemente e apresentar:
+
+- Fotografia maior do produto.
+- Nome.
+- Descrição.
+- Botão para consultar o produto pelo WhatsApp.
+- Botão de fechar.
+
+O restante da página poderá receber um leve escurecimento, mantendo a atenção do visitante na janela.
+
+A janela deverá fechar ao clicar no botão de fechar ou fora dela. Também deverá permitir o fechamento pelo teclado.
+
+Essa interação deve funcionar tanto em computadores quanto em celulares.
+
+### 4.4. Categorias e identidade visual
+
+Cada categoria poderá possuir uma composição de fundo própria, respeitando a paleta geral.
+
+**Baralhos:** categoria principal, com maior destaque visual. Utilizar imagens maiores, elementos gráficos inspirados em cartas e uma composição mais sofisticada.
+
+**Essências:** apresentação visual mais discreta, organizada e comercial.
+
+**Copos:** destacar fotografias e variedade de modelos.
+
+**Palheiros:** manter a mesma linguagem de catálogo, com boa apresentação dos produtos.
+
+**Outros:** organizar produtos variados de maneira clara, sem transformar a seção em uma grade desorganizada.
+
+Não inventar modelos, marcas, quantidades ou características de produtos. Utilizar somente informações e imagens fornecidas pela empresa.
+
+## 5. Animações e comportamento durante a rolagem
+
+As animações são uma parte importante da identidade do projeto.
+
+O site deve transmitir uma sensação de qualidade e acabamento profissional.
+
+Utilizar animações como:
+
+- Elementos surgindo suavemente conforme entram na área visível.
+- Títulos aparecendo com deslocamento vertical.
+- Fotografias reveladas gradualmente.
+- Pequenos efeitos de profundidade e paralaxe em áreas de destaque.
+- Transições entre as categorias.
+- Expansão dos painéis de produtos.
+- Animações de hover em produtos e elementos interativos.
+- Mudanças sutis no header durante a rolagem.
+
+A implementação deve utilizar observação da área visível da tela para ativar animações somente quando necessário.
+
+**Importante:** evitar que tudo se movimente ao mesmo tempo. As animações devem conduzir a atenção do visitante, não competir com as informações.
+
+Não utilizar efeitos excessivamente chamativos, animações repetitivas ou transições que dificultem a navegação.
+
+Respeitar a preferência de acessibilidade para redução de movimentos.
+
+## 6. Sobre a Souza Atacadista
+
+A seção Sobre deverá transmitir tradição, confiança e proximidade.
+
+Não utilizar um texto institucional enorme. Reescrever o conteúdo fornecido em uma linguagem mais humana, mantendo as informações importantes.
+
+### Texto sugerido
+
+**Tradição, qualidade e bons produtos há 31 anos.**
+
+Situada em Mogi Mirim-SP, a Souza Atacadista atua há 31 anos no mercado, oferecendo produtos de qualidade para bares, estabelecimentos comerciais e amantes dos jogos de cartas.
+
+Especializada no segmento de jogos, a empresa trabalha com baralhos novos e reciclados, toalhas de mesa e diversos acessórios. Também oferece uma variedade de artigos de conveniência para atender às necessidades dos seus clientes.
+
+Nosso compromisso é oferecer produtos de qualidade, bons preços e um atendimento transparente, construindo relações de confiança com cada cliente.
+
+### Nosso compromisso
+
+Apresentar três pilares visualmente:
+
+**Qualidade**  
+Trabalhamos para oferecer produtos de qualidade e marcas reconhecidas.
+
+**Compromisso**  
+Buscamos atender às necessidades dos nossos clientes com transparência e responsabilidade.
+
+**Tradição**  
+São 31 anos de experiência e conhecimento no segmento.
+
+A seção deverá utilizar uma composição visual que combine fotografia, texto e elementos gráficos. Evitar três cartões genéricos iguais.
+
+## 7. Contato
+
+Criar uma seção de contato objetiva, elegante e com destaque para o WhatsApp.
+
+O principal objetivo é fazer com que o visitante consiga conversar com a empresa facilmente.
+
+### Informações
+
+**Souza Atacadista**
+
+Av. Juscelino Kubitschek de Oliveira, 325  
+Inocoop — Mogi Mirim/SP  
+CEP: 13806-520
+
+**WhatsApp:** (19) 98888-2409
+
+### Elementos da seção
+
+- Botão principal para iniciar uma conversa pelo WhatsApp.
+- Endereço completo.
+- Link para visualizar a localização no Google Maps.
+- Telefone apresentado de maneira clara.
+- Pequeno texto convidando o cliente a consultar produtos e condições comerciais.
+
+O botão do WhatsApp deverá abrir uma conversa diretamente com o número da empresa.
+
+Utilizar uma mensagem inicial automática, por exemplo:
+
+"Olá! Conheci a Souza Atacadista pelo site e gostaria de mais informações sobre os produtos."
+
+Também deverá existir um acesso discreto ao WhatsApp durante toda a navegação, sem que ele cubra informações ou interfira nos painéis de produtos.
+
+## 8. Rodapé
+
+Criar um rodapé elegante e compacto.
+
+Incluir:
+
+- Identidade visual da Souza Atacadista.
+- Navegação para as principais seções.
+- Endereço.
+- WhatsApp.
+- Informação de direitos reservados.
+
+O rodapé deverá utilizar principalmente as cores azul-escuro e dourado.
+
+## 9. Responsividade
+
+O site deverá ser completamente responsivo.
+
+**Desktop:** aproveitar a largura da tela, com grandes imagens, painéis expansíveis e navegação horizontal confortável.
+
+**Tablet:** ajustar a quantidade de produtos visíveis, preservar as animações e adaptar o header.
+
+**Celular:** priorizar a leitura, os controles por toque e a navegação vertical. Os painéis de produtos deverão ocupar uma área adequada à tela, sem extrapolar os limites do dispositivo.
+
+Em telas menores, as janelas de produtos poderão ocupar quase toda a largura disponível, mantendo margens e um botão de fechamento acessível.
+
+Não basta reduzir os elementos do desktop. É necessário adaptar a composição para dispositivos móveis.
+
+## 10. Integração com WhatsApp
+
+A integração com WhatsApp é o principal canal de conversão.
+
+Todos os botões comerciais deverão utilizar links diretos do WhatsApp.
+
+Número: `5519988882409`
+
+Utilizar mensagens personalizadas conforme a ação.
+
+Exemplo ao consultar um produto:
+
+"Olá! Gostaria de informações sobre o produto [NOME DO PRODUTO]."
+
+Exemplo ao entrar em contato pelo site:
+
+"Olá! Conheci a Souza Atacadista pelo site e gostaria de conhecer melhor os produtos."
+
+Não implementar carrinho, pagamento, cadastro, login ou checkout.
+
+## 11. Requisitos técnicos
+
+Desenvolver uma página rápida, organizada e fácil de manter.
+
+Requisitos:
+
+- Código organizado e reutilizável.
+- Componentes separados para produtos, categorias, header, rodapé e janelas de detalhes, quando a tecnologia utilizada permitir.
+- Catálogo estruturado de modo que seja fácil adicionar, editar ou remover produtos.
+- Imagens otimizadas para carregamento rápido.
+- Carregamento otimizado das fotografias que aparecem mais abaixo na página.
+- Animações fluidas, sem prejudicar o desempenho.
+- Links externos funcionando corretamente.
+- Compatibilidade com os navegadores modernos.
+- Estrutura semântica e acessível.
+- Textos alternativos nas imagens.
+- Navegação por teclado e indicadores de foco.
+- Títulos e descrições adequados para SEO.
+- Ícone e identidade da empresa no navegador.
+
+Não criar dependências desnecessárias nem funcionalidades que não façam parte do objetivo do projeto.
+
+## 12. Diretrizes importantes
+
+O desenvolvimento deverá respeitar as seguintes decisões:
+
+1. O site é uma vitrine comercial, não uma loja virtual.
+2. Todo o conteúdo deverá permanecer em uma única página.
+3. O foco visual e comercial será nos baralhos.
+4. Os demais produtos deverão ser organizados em categorias.
+5. A navegação principal deverá utilizar rolagem suave.
+6. Os produtos serão apresentados em painéis expansíveis e carrosséis horizontais.
+7. O clique em um produto abrirá uma janela sobreposta com detalhes.
+8. O WhatsApp será o principal meio de contato.
+9. O design não deverá ficar carregado de informações.
+10. As animações devem transmitir qualidade, não exagero.
+11. Não criar produtos fictícios para preencher o catálogo.
+12. Não inventar preços, marcas, disponibilidade ou características.
+13. Não utilizar botões genéricos sem integração com a composição visual.
+14. A experiência deverá ser simples para donos de bares e comerciantes, sem perder a sofisticação de um site profissional.
+
+## 13. Critérios de aprovação
+
+O projeto será considerado concluído quando:
+
+- O visitante compreender rapidamente o que a Souza Atacadista comercializa.
+- O banner principal apresentar uma vitrine visual de produtos.
+- O menu direcionar corretamente para as seções da página.
+- As cinco categorias estiverem organizadas e funcionais.
+- Os painéis de produtos se expandirem com animações suaves ao chegar às respectivas seções.
+- A navegação horizontal dos produtos funcionar com mouse e toque.
+- A janela individual de produto abrir e fechar corretamente.
+- Os botões de contato abrirem o WhatsApp com mensagens adequadas.
+- O site funcionar corretamente em computadores, tablets e celulares.
+- O visual respeitar a paleta de cores e a identidade inspirada nos baralhos.
+- A página apresentar bom desempenho e não possuir excesso de elementos visuais.
+
+**Resultado esperado:** um site moderno, elegante e comercialmente eficiente, que valorize a história da Souza Atacadista e transforme seu catálogo em uma experiência visual agradável. O visitante deverá sentir que está explorando uma vitrine cuidadosamente organizada, encontrar os produtos com facilidade e conseguir entrar em contato com a empresa em poucos segundos.
+
+## 14. Referências visuais e arquivos do projeto
+
+Na raiz do projeto existe uma pasta chamada `references/`, que contém imagens de referência para orientar o desenvolvimento do site da Souza Atacadista.
+
+Antes de iniciar a implementação, a IA deverá:
+
+1. Verificar o conteúdo da pasta `references/`.
+2. Abrir e analisar as imagens disponíveis para compreender a identidade visual desejada, as referências estéticas, as animações e a apresentação dos produtos.
+3. Utilizar essas referências como orientação para desenvolver uma identidade visual própria para a Souza Atacadista, respeitando a paleta de cores e os requisitos definidos neste PRP.
+4. Priorizar as instruções deste documento caso alguma referência visual entre em conflito com os requisitos especificados.
+
+**Importante:**
+- Não copiar literalmente os sites ou layouts apresentados nas referências. Criar uma solução original inspirada nelas.
+- Não utilizar automaticamente as imagens de referência como fotografias dos produtos no site.
+- As imagens que serão exibidas efetivamente no site deverão ficar organizadas em uma pasta própria de recursos visuais, como `public/images/`, conforme a estrutura do projeto.
+- Caso alguma imagem não possa ser aberta ou a pasta esteja vazia, continuar o desenvolvimento com base nas especificações textuais deste PRP, sem inventar referências que não foram fornecidas.
+- A pasta `references/` serve exclusivamente como fonte de inspiração e orientação visual, salvo quando houver uma instrução explícita em contrário.
